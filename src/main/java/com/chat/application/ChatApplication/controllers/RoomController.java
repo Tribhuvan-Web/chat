@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/rooms")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://chat-frontend-eight-gamma.vercel.app")
 public class RoomController {
 
     private RoomRepository roomRepository;
