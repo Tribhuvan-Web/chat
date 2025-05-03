@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Transactional
 @RestController
-@CrossOrigin(origins = "https://chat-frontend-eight-gamma.vercel.app")
 public class ChatController {
 
     @Autowired
